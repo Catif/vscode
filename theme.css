@@ -1,0 +1,120 @@
+/* Removed Elements */
+.titlebar-center,
+.titlebar-right,
+.tabs-and-actions-container,
+.action-item:has(> .codicon-new-file),
+.action-item:has(> .codicon-new-folder),
+.action-item:has(> .monaco-dropdown) {
+  display: none !important  ;
+}
+
+/* Indent guide */
+.indent-guide:nth-child(5n + 1) {
+  border-left-color: rgb(209, 103, 103) !important;
+}
+
+.indent-guide:nth-child(5n + 2) {
+  border-left-color: rgb(138, 218, 136) !important;
+}
+
+.indent-guide:nth-child(5n + 3) {
+  border-left-color: rgb(136, 218, 218) !important;
+}
+
+.indent-guide:nth-child(5n + 4) {
+  border-left-color: rgb(218, 189, 136) !important;
+}
+
+.indent-guide:nth-child(5n) {
+  border-left-color: rgb(218, 136, 198) !important;
+}
+
+/* Theme */
+
+.monaco-workbench {
+  /* Transparent */
+  --vscode-sideBarTitle-background: transparent !important;
+  --vscode-sideBar-background: transparent !important;
+  --status-border-top-color: transparent !important;
+
+  /* Bg perso */
+  --bg-perso: #201f1e;
+  --bg-perso-darken: hsl(30, 3%, 8%);
+
+  --vscode-editorGutter-background: var(--bg-perso) !important;
+  --vscode-editor-background: var(--bg-perso) !important;
+  --vscode-breadcrumb-background: var(--bg-perso) !important;
+  --vscode-sideBarSectionHeader-background: var(--bg-perso) !important;
+  --vscode-input-background: var(--bg-perso-darken) !important;
+
+  /* Other */
+  --vscode-statusBarItem-remoteBackground: #653522 !important;
+}
+
+.activitybar,
+.titlebar,
+.editor-container,
+.content,
+.sidebar,
+.statusbar {
+  background-color: #201f1e !important;
+}
+
+.monaco-decoration-itemColor--9ieymw {
+  font-style: italic !important;
+}
+
+#status\.scm\.0,
+#status\.scm\.1 {
+  background-color: #2e4388 !important;
+  color: white !important;
+}
+/* Sidebar */
+.sidebar {
+  border-right: none !important;
+}
+
+/* == Hightlight code == */
+/* Unhighlighted code */
+[class="mtk1"] {
+  color: #ffffffd5 !important;
+}
+
+/* Comment */
+[class="mtk3"] {
+  color: #80a38baf !important;
+}
+
+.mtk3 {
+  font-style: italic !important;
+}
+
+/* keyword */
+[class="mtk4"] {
+  color: #d67272 !important;
+}
+
+/* property/constant */
+[class="mtk5"] {
+  color: #9fc2f7 !important;
+}
+
+/* Class */
+[class="mtk6"] {
+  color: #f8b755 !important;
+}
+
+/* Function */
+[class="mtk7"] {
+  color: #af82ce !important;
+}
+
+/* Number */
+[class="mtk8"] {
+  color: #f8c555 !important;
+}
+
+/* String */
+[class="mtk9"] {
+  color: #83b864 !important;
+}
