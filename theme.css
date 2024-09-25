@@ -55,6 +55,8 @@
   --vscode-sideBarSectionHeader-background: var(--primary) !important;
   --vscode-input-background: var(--primary-darken) !important;
   --vscode-quickInput-background: var(--primary-darken) !important;
+  --vscode-tab-activeBackground: var(--primary) !important;
+  --vscode-tab-inactiveBackground: var(--primary-darken) !important;
 
   /* Other */
   --vscode-button-foreground: var(--white) !important;
@@ -85,7 +87,16 @@
 .tab.selected {
   --tab-border-bottom-color: #fff !important;
   --tab-border-top-color: transparant !important;
-  --vscode-tab-activeBackground: var(--primary-darken) !important;
+}
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container.active
+  > .title
+  .tabs-container
+  > .tab:not(.selected):hover {
+  background-color: var(--primary) !important;
 }
 
 .monaco-decoration-itemColor--9ieymw {
