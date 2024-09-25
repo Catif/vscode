@@ -1,7 +1,6 @@
 /* Removed Elements */
 .titlebar-center,
 .titlebar-right,
-.tabs-and-actions-container,
 .action-item:has(> .codicon-new-file),
 .action-item:has(> .codicon-new-folder),
 .action-item:has(> .monaco-dropdown) {
