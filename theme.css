@@ -1,9 +1,6 @@
 /* Removed Elements */
 .titlebar-center,
-.titlebar-right,
-.action-item:has(> .codicon-new-file),
-.action-item:has(> .codicon-new-folder),
-.action-item:has(> .monaco-dropdown) {
+.titlebar-right {
   display: none !important  ;
 }
 .monaco-tl-twistie:has(+ .monaco-tl-content > .resource) {
