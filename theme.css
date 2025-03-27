@@ -122,20 +122,21 @@
 /* == Hightlight code == */
 /* Unhighlighted code */
 [class="mtk1"] {
-  color: #faece5 !important;
+  color: #e1e5e9 !important;
 }
 
 /* Comment */
-[class="mtk3"] {
+[class="mtk5 mtki"] {
   color: #6faf83af !important;
+  font-style: italic !important;
 }
 
-.mtk3 {
+[class="mtk3"] {
   font-style: italic !important;
 }
 
 /* keyword / operator */
-[class="mtk4"] {
+.mtk4 {
   color: #e77777 !important;
 }
 
@@ -160,7 +161,7 @@
 }
 
 /* String */
-[class="mtk9"] {
+[class="mtk11"] {
   color: #8fca6c !important;
 }
 
