@@ -60,6 +60,9 @@
   --vscode-button-background: var(--brown) !important;
   --vscode-statusBarItem-remoteBackground: var(--brown) !important;
   --vscode-quickInputList-focusBackground: var(--brown) !important;
+
+  /* Selection */
+  --vscode-list-activeSelectionForeground: var(--white) !important;
 }
 
 .tabs-border-bottom {
@@ -165,6 +168,19 @@
   color: #8fca6c !important;
 }
 
+/* Bool */
+[class="mtk8 mtki"] {
+  color: #19ecda !important;
+}
+
+/* Unused variable */
+.monaco-editor.showUnused .squiggly-inline-unnecessary {
+  text-decoration: underline !important;
+  text-decoration-color: #e1e5e9 !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 2px !important;
+}
+
 /* Command palette text input */
 /* Command Palette */
 .quick-input-widget {
@@ -190,11 +206,6 @@
 
 .monaco-list {
   border-radius: 12px !important;
-}
-
-.monaco-list-row {
-  padding: 0px 4px !important;
-  height: fit-content !important;
 }
 
 #command-blur {
